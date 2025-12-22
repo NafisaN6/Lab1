@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 
-  // 1. Highlight nav links on hover
+  // 1. Highlight nav links on hover 
   $("nav a").hover(
     function() {
       $(this).css("color", "#FFD966");
