@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 <meta charset="utf-8"/>
 <meta name="Description" content="Sample Web site for learning HTML5 and CSS3"/>
+
 <link rel="shortcut icon" href="http://www.habitat.org/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
 <title>Habitat for Humanity Int&#039;l</title>
+ 
 </head>
 <body>
 
 <header>
-<img src="media/logo.png" alt="Habitat for Humanity logo" />
+  <center>
+<img src="https://nafisan6.github.io/Lab1/media/logo.png" alt="Habitat for Humanity logo" />
+  </center>
 </header>
 
 <nav>
 <h4>Simple, decent, affordable housing</h4><ul>
-<li><a href="http://www.habitat.org/how/about_us.aspx">Learn more</a></li>
-<li><a href="http://www.habitat.org/getinv/volunteer_programs.aspx">Volunteer</a></li>
-<li><a href="http://www.habitat.org/gov">Advocate</a></li>
-<li><a href="https://www.habitat.org/cd/giving/donate.aspx?r=r&amp;link=1">Donate</a></li>
+<li><a href="https://www.habitat.org/about"target="_blank">Learn more</a></li>
+<li><a href="https://www.habitat.org/volunteer"target="_blank">Volunteer</a></li>
+<li><a href="https://www.habitat.org/about/advocacy"target="_blank">Advocate</a></li>
+<li><a href="https://secure.habitat.org/site/Donation2?df_id=7753&mfc_pref=T&7753.donation=form1"target="_blank">Donate</a></li>
 </ul>
 </nav> 
 
 <article>
 <h1>Our Mission</h1>
 <p>Habitat for Humanity believes that every man, woman and child should have a decent, safe and affordable place to live. We build and repair houses all over the world using volunteer labor and donations. Our partner families purchase these houses through no-profit, no-interest mortgage loans or innovative financing methods.</p>
-<img src="media/menu_icon_default.jpg" width="212" height="121" alt="Silhouettes of Habitat for Humanity workers" />
+<img src="https://nafisan6.github.io/Lab1/media/menu_icon_default.jpg" width="212" height="121" alt="Silhouettes of Habitat for Humanity workers" />
 </article> 
 
 <article>
@@ -37,10 +41,31 @@
 <h1>Advocacy in Action</h1>
 <p>Volunteer Amy Miles lends her voice in support of Habitat's advocacy efforts and Global Village trips. Use the audio controls below to hear her stories.</p> 
 </article>
+<section id="game">
+  <h1>Build a Home!</h1>
+  <p><strong>How to play:</strong> Click each step to help build a Habitat home.</p>
+
+  <div id="game-buttons">
+    <button class="build-step" data-step="foundation">Lay The Foundation</button>
+    <button class="build-step" data-step="walls">Build The Walls</button>
+    <button class="build-step" data-step="roof">Add A Gardan</button>
+    <button class="build-step" data-step="family">Move A Family In</button>
+  </div>
+
+  <div id="progress">
+    <p>Progress: <span id="percent">0%</span></p>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </div>
+
+  <div id="house">🧱</div>
+  <p id="game-message"></p>
+</section>
 
 <aside>
 <h4>Build Your Community</h4>
-<a href="http://www.habitat.org/youthprograms/ages_14_25/ages_14_25_default.aspx"><img src="media/YP3_14to25.jpg" alt="Habitat for Humanity logo"/></a>
+<a href="http://www.habitat.org/youthprograms/ages_14_25/ages_14_25_default.aspx"><img src="https://nafisan6.github.io/Lab1/media/YP3_14to25.jpg" alt="Habitat for Humanity logo"/></a>
 <p><a href="http://www.habitat.org/youthprograms/ages_14_25/ages_14_25_default.aspx">Start today</a> to become the leaders of Habitat tomorrow! </p> 
 </aside> 
 
@@ -54,4 +79,3 @@
 
 </body>
 </html>
-
